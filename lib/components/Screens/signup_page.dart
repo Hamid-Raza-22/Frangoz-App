@@ -50,6 +50,7 @@ registration()async{
         context,
         MaterialPageRoute(builder: (context) => const LoginPage()),
       );
+
       print("user: $userCredential");
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("Rigestered Successfully",style: TextStyle(fontSize: 20),)));
 
